@@ -1,5 +1,5 @@
-# business-card
-This is a responsive business card ;)
+# Portfolio: Cristian Tinipuclla
+Hi! I am Cristian Tinipuclla and this is my portfolio website.
 
 ## Resources
 - Color palette: https://htmlcolorcodes.com/
