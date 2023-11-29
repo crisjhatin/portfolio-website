@@ -2,6 +2,7 @@ html, body{
   margin: 0px;
   width: 100%;
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 .container{
   width: 100%;
@@ -38,11 +39,12 @@ section{
 }
 .card{
   width: 300px;
-  height: 500px;
+  height: 650px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 20px;
   background: #B39DDB;
   border-radius: 20px;
   overflow: hidden;
@@ -72,4 +74,53 @@ section{
 }
 .info{
   margin-bottom: 5%;
+}
+.portfolio{
+  display: grid;
+  width: 1100px;
+  height: 800px;
+  background: papayawhip;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #B39DDB;
+  border: 3px solid #29B6F6;
+}
+.project{
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 3px solid #29B6F6;
+  
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-in-out;
+}
+
+.project:hover img {
+  filter: brightness(50%);
+}
+
+.project .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project:hover .overlay {
+  opacity: 1;
 }
