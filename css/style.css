@@ -74,20 +74,26 @@ section{
 }
 .info{
   margin-bottom: 5%;
+  padding: 5%;
 }
 .portfolio{
   display: grid;
   width: 1100px;
   height: 800px;
-  background: papayawhip;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
   padding: 20px;
   border-radius: 20px;
-  background: #B39DDB;
+  background-image: linear-gradient(45deg, #B39DDB, #0D47A1);
   border: 3px solid #29B6F6;
 }
+/* .js-apps{
+  display: flex;
+  width: 1100px;
+  height: 300px;
+} */
+
 .project{
   position: relative;
   overflow: hidden;
