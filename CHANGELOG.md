@@ -25,3 +25,6 @@ Componentization instead of pure jsx.
 - *Main.tsx*: `index.css` import deleted.
 ### Added
 - New components: Contact, Footer, Navbar, Portfolio, Skills and Welcome.
+
+## [1.1.1] - 2024-02-18
+- GH Pages configuration added
