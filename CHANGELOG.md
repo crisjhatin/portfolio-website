@@ -42,3 +42,18 @@ Componentization instead of pure jsx.
 
 ### Added
 - New domain name.
+
+## [1.2.1] - 2024-02-24
+
+### Added
+- Skill icons and names.
+- Favicon.
+- Social media links.
+- CSS code for Skills.
+
+### Removed
+- C# Skill icon.
+- Default favicon.
+
+### Changed
+- Welcome description.

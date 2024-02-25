@@ -302,6 +302,13 @@ footer img{
   #skills li{
     grid-column: span 2;
   }
+  #skills li:nth-child(5){
+    grid-column: 3/5;
+   }
+  #skills li:nth-child(6){
+  grid-column: 5/7;
+  }
+
   footer{
     padding: 40px 20px;
   } 

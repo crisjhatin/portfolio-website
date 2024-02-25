@@ -1,7 +1,9 @@
 import javascript  from "../assets/img/javascript.svg";
 import sql  from "../assets/img/sql.svg";
-import c_sharp  from "../assets/img/c-sharp.svg";
+import python  from "../assets/img/python.svg";
 import react  from "../assets/img/react.svg";
+import spring_boot from "../assets/img/spring-boot.svg"
+import git from "../assets/img/git.svg"
 
 function Skills() {
   
@@ -22,9 +24,18 @@ function Skills() {
           <h4>SQL</h4>
         </li>
         <li>
-          <img src={c_sharp} alt=""/>
-          <h4>C#</h4>
+          <img src={spring_boot} alt=""/>
+          <h4>Java/Spring Boot</h4>
         </li>
+        <li>
+          <img src={python} alt=""/>
+          <h4>Python</h4>
+        </li>
+        <li>
+          <img src={git} alt=""/>
+          <h4>Git/Github</h4>
+        </li>
+        
       </ul>
     </section>
 

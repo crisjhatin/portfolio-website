@@ -10,9 +10,9 @@ function Footer() {
       <div className="grid">
         <p className="copyright"> Copyright 2024 Cristian Tinipuclla</p>
         <ul className="social">
-          <li><a href=""><img src={icon_gh} alt="github"/></a></li>
-          <li><a href=""><img src={icon_x} alt="X"/></a></li>
-          <li><a href=""><img src={icon_lkd} alt="LinkedIn"/></a></li>
+          <li><a href="https://github.com/crisjhatin" target="_blank" rel="noopener noreferrer"><img src={icon_gh} alt="github"/></a></li>
+          <li><a href="https://twitter.com/crisjhatin" target="_blank" rel="noopener noreferrer"><img src={icon_x} alt="X"/></a></li>
+          <li><a href="https://www.linkedin.com/in/crisjhatin/" target="_blank" rel="noopener noreferrer"><img src={icon_lkd} alt="LinkedIn"/></a></li>
         </ul>
       </div>
     </footer>
