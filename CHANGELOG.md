@@ -57,3 +57,12 @@ Componentization instead of pure jsx.
 
 ### Changed
 - Welcome description.
+
+## [1.2.2] - 2024-03-05
+
+### Added
+- *Navbar*: Smooth scroll.
+- *Welcome*: Smooth scroll for "View my work" button.
+
+### Changed
+- Css styles

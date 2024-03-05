@@ -32,6 +32,7 @@ body{
   text-transform: uppercase;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.71);
   display: inline-block; /*for magin purposes*/
+  cursor: pointer;
 }
 .button:hover{
   color: #222;
@@ -80,6 +81,8 @@ h4{
 /* nav */
 .site-nav{
   margin: 0 20px;
+  background: var(--secondary); 
+
 }
 .site-nav ul{
   display: none;
@@ -107,7 +110,7 @@ h4{
   height: auto;
   border-radius: 15%;
 }
-.welcome-text a{
+.welcome-text button{
   margin: 20px 0;
 }
 /* portfolio */
@@ -115,7 +118,7 @@ h4{
   background: linear-gradient(135deg,var(--secondary),var(--other));
 }
 #portfolio h3{
-  margin-bottom: 0;
+  margin: 0;
   padding: 20px 0;
   text-align: center;
 }
@@ -256,7 +259,10 @@ footer img{
   margin: 20px 0;
  }
  .site-nav{
-  padding: 0 20px;
+  max-width: 100%;
+  padding: 0 30px;
+  position: sticky;
+  top: 0;
  }
  .site-nav h1{
   grid-column: 1/3;
@@ -277,7 +283,7 @@ footer img{
   grid-column: 6/9;
  }
  #welcome{
-  padding-bottom: 40px;
+  padding: 50px 0;
  }
  .projects a:nth-child(1){
   grid-column: 2/4;
@@ -318,23 +324,23 @@ footer img{
 @media screen and (min-width: 1200px) {
   body{
     font-size: 20px;
-   }
-   #welcome, #portfolio, #skills, #contact, footer{
-    padding: 50px 0;
-   }
-   .projects a:nth-child(1){
-    grid-column: 1/3;
-   }
-   .projects a:nth-child(3){
-    grid-column: 7/9;
-   }
-   .projects a *{
-    max-width: 100%;
-    margin: 30px 0;
-   }
-   footer img{
-    width: 30px;
-   }
+  }
+   #portfolio, #skills, #contact, footer{
+  padding: 80px 0;
+  }
+  .projects a:nth-child(1){
+  grid-column: 1/3;
+  }
+  .projects a:nth-child(3){
+  grid-column: 7/9;
+  }
+  .projects a *{
+  max-width: 100%;
+  margin: 30px 0;
+  }
+  footer img{
+  width: 30px;
+  }
 
     
 }
